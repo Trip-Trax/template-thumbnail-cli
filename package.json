@@ -1,0 +1,42 @@
+{
+  "name": "thumbnail-cli",
+  "version": "1.0.0",
+  "description": "README.md",
+  "main": "./bin/index.js",
+  "engines": {
+    "node": ">=7.x"
+  },
+  "bin": {
+    "thumbnail-cli": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trip-Trax/template-thumbnail-cli.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Genert Org",
+    "email": "contact@genert.org",
+    "url": "http://genert.org"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Trip-Trax/template-thumbnail-cli/issues"
+  },
+  "homepage": "https://github.com/Trip-Trax/template-thumbnail-cli#readme",
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0"
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "fs-jetpack": "^0.12.0",
+    "jimp": "^0.2.27",
+    "jszip": "^3.1.3",
+    "lodash": "^4.17.4",
+    "webshot": "^0.18.0"
+  }
+}
